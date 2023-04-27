@@ -46,7 +46,7 @@ public class CoolappApplication {
 
 	private void updateStudent(StudentDAO studentDAO){
 		Student student = getStudentById(1,studentDAO);
-		student.setFirstName("Vishal Shivbhola");
+		student.setFirstName("Vishal");
 		studentDAO.updateStudent(student);
 	}
 
